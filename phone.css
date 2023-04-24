@@ -1,0 +1,56 @@
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#profil{
+    align-items: end;
+    font-size: 0.6rem;
+    
+    
+    
+    
+ }
+ #profil::before{
+    height:70%;
+    width: 50%;
+    
+ }
+
+
+.heading{
+    font-size: 0.8rem;
+    text-align: end;
+}
+
+
+
+.box{
+    height: 160px;
+    width: 130px;
+    background-color: var(--color-secondary);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+ }
+ .box h2{
+    color: var(--color-three);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+ }
+ .box p{
+    color: white;
+    font-size: 0.8rem;
+ }
+  #qualités_personnelles p{
+    text-align: center;
+  }
+
+#message{
+    width: 40%;
+    height: 200px;
+}
+#submit{
+    width: 40%;
+    height: 40px;
+}
+
